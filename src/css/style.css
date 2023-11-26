@@ -71,6 +71,18 @@ body {
 	text-align: center;
 }
 
+.letter--position-none {
+	background-color: grey;
+}
+
+.letter--position-exact {
+	background-color: green;
+}
+
+.letter--position-other {
+	background-color: orange;
+}
+
 .word-input {
 	background-color: transparent;
 
