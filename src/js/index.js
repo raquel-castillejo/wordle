@@ -19,6 +19,7 @@ LÓGICA
 
 al jugar:
 - introduces una palabra (al hacer intro)
+
     - ✅ VALIDACIÓN - mirar si la palabra tiene el número de letras indicado (5)
     - ✅ si NO tiene el número de letras indicado: mostrar un alert de que la palabra tiene que tener 5 letras (o el número que sea)
 
@@ -40,10 +41,8 @@ mis opciones:
 + hacer un array en el que cada una de las letras de la palabra escrita por el usuario es un objeto. tiene los datos { letter: "xyz", position: "exact" | "other" | "none" }
 el position es un dataset. primero pongo las exactas, luego las que no. las que son other son las más difíciles, así que esas las miro las últimas.
 
-+ luego dependiendo del dataset, le añado una clase
 
-        
-- sumas uno al número de intentos utilizado
+     - sumas uno al número de intentos utilizado
 
 momentos que terminan con el juego:
 - si el número de intentos utilizados iguala al número de intentos posibles
