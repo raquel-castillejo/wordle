@@ -75,14 +75,13 @@ body {
 	background-color: grey;
 }
 
-.letter--position-exact {
-	background-color: green;
-}
-
 .letter--position-other {
 	background-color: orange;
 }
 
+.letter--position-exact {
+	background-color: green;
+}
 .word-input {
 	background-color: transparent;
 
